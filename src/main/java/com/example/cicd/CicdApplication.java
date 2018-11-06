@@ -1,4 +1,4 @@
-package com.raghavx.cicd;
+package com.example.cicd;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

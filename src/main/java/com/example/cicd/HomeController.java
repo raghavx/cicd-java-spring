@@ -1,4 +1,4 @@
-package com.raghavx.cicd;
+package com.example.cicd;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

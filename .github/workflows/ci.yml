@@ -10,5 +10,9 @@ jobs:
       with:
         distribution: 'corretto'
         java-version: '11'
-    - name: Build with maven 
+    - name: Build with maven
+      run: ls
+      run: pwd 
+      run: cd ..
+      run: ls 
       run: mvn -B package --file ../pom.xml

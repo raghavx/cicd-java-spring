@@ -12,12 +12,4 @@ jobs:
         distribution: 'corretto'
         java-version: '11'
     - name: Build with maven
-      run: ls
-    - name: Build with maven  
-      run: pwd 
-    - name: Build with maven  
-      run: cd ..
-    - name: Build with maven
-      run: ls 
-    - name: Build with maven  
-      run: mvn -B package --file ../pom.xml
+      run: ./mvnw package
